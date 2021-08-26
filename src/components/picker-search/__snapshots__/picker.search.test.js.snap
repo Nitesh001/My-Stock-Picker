@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search shows custom value entered by user 1`] = `
+<div
+  className="mb-3 input-group"
+>
+  <input
+    className="form-control"
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    placeholder="placeholder"
+    type="text"
+    value="value"
+  />
+  <button
+    className="btn btn-primary"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Search
+  </button>
+  <button
+    className="btn btn-secondary"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Reset
+  </button>
+</div>
+`;
+
+exports[`Search shows placeholder, default input and two buttons 1`] = `
+<div
+  className="mb-3 input-group"
+>
+  <input
+    className="form-control"
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    placeholder="placeholder"
+    type="text"
+    value=""
+  />
+  <button
+    className="btn btn-primary"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Search
+  </button>
+  <button
+    className="btn btn-secondary"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Reset
+  </button>
+</div>
+`;

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error component shows custom message 1`] = `
+<div
+  className="fade alert alert-info alert-dismissible show"
+  role="alert"
+>
+  <button
+    aria-label="Close alert"
+    className="btn-close"
+    onClick={[Function]}
+    type="button"
+  />
+  <p>
+    custom error
+  </p>
+</div>
+`;
+
+exports[`Error component shows default message 1`] = `
+<div
+  className="fade alert alert-info alert-dismissible show"
+  role="alert"
+>
+  <button
+    aria-label="Close alert"
+    className="btn-close"
+    onClick={[Function]}
+    type="button"
+  />
+  <p>
+    Sorry! Please try again. We don't have any record matching your criteria
+  </p>
+</div>
+`;
+
+exports[`Error component with onclose 1`] = `
+<div
+  className="fade alert alert-info alert-dismissible show"
+  role="alert"
+>
+  <button
+    aria-label="Close alert"
+    className="btn-close"
+    onClick={[Function]}
+    type="button"
+  />
+  <p>
+    custom error
+  </p>
+</div>
+`;

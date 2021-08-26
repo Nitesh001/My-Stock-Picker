@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./public/",
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "allowSyntheticDefaultImports":true,
+    "moduleResolution":"node",
+    "baseUrl": "./",
+    "strict": true,
+    "typeRoots": ["./src/@types", "./node_modules/@types"],
+  }
+}

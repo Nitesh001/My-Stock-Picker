@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card shows title and value 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <div
+      className="card-title h5"
+    >
+      title
+    </div>
+    <p
+      className="card-text"
+    >
+      value
+    </p>
+  </div>
+</div>
+`;

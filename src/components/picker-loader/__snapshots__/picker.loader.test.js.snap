@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader shows custom message 1`] = `
+<div
+  className="list-group"
+  onKeyDown={[Function]}
+>
+  <div
+    className="list-group-item"
+    data-rr-ui-event-key={null}
+    onClick={[Function]}
+  >
+    custom message
+  </div>
+</div>
+`;
+
+exports[`Loader shows default message 1`] = `
+<div
+  className="list-group"
+  onKeyDown={[Function]}
+>
+  <div
+    className="list-group-item"
+    data-rr-ui-event-key={null}
+    onClick={[Function]}
+  >
+    loading...
+  </div>
+</div>
+`;
