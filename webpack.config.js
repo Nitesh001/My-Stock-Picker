@@ -51,7 +51,7 @@ module.exports = {
   },
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'public/scripts'),
   },
   devtool:'eval-cheap-module-source-map',
   mode: 'production',
